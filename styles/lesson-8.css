@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+}
+.logo {
+    margin-right: 50px;
+    padding:5px 15px;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+ul > li {
+    margin-right: 30px;
+}
+.box {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+}
+.aside {
+    padding: 10px 20px;
+    background-color: lavender;
+}
+.post {
+    padding-bottom: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+section{
+    background-color: lavender;
+    padding:5px 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 0 20px;
+}
